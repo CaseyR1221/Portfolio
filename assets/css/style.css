@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --first: #31343d;
+    --second: #92ccce;
+    --third: #445877;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--first);
+}
+
+header h1 {
+    color: var(--first);
+    background-color: var(--second);
+    padding: 0% 1% 0% 9%;
+    line-height: 1;
+    font-size: 4vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 3%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 20px;
+    color: var(--second);
+    font-size: 24px;
+    background-image: linear-gradient(280deg, var(--second) 0%, var(--second) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all .25s ease-in;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--first);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero {
+    background-image: url(../images/be-awesome.jpeg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
