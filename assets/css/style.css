@@ -79,7 +79,21 @@ main {
 
 footer h3 {
     text-align: center;
+    margin: auto;
 }
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 74px;
+    border-bottom: 3px solid black;
+    font-size: 150%;
+}
+
 
 .hero {
     display: flex;
@@ -203,5 +217,10 @@ footer h3 {
 }
 
 #contact-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     flex: 1 0 80%;
 }
