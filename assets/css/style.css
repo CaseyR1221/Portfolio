@@ -3,9 +3,8 @@
 }
 
 :root {
-    --first: #112257;
-    --second: #0fe3d5;
-    --third: #445877;
+    --light: #f4f4f5;
+    --main: #476d5b;
 }
 
 body {
@@ -29,21 +28,23 @@ p {
 }
 
 header {
-    padding: 15px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--first);
+    background-image: url(../images/header-background.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 header h1 {
-    color: var(--first);
-    background-color: var(--second);
-    padding: 0% 1% 0% 9%;
+    color: var(--light);
+    background-color: var(--main);
+    padding: 0% 3% 0% 3%;
     line-height: 1;
     font-size: 4vw;
+    border-radius: 30px;
 }
 
 nav {
@@ -55,11 +56,12 @@ nav {
 
 nav a {
     text-decoration: none;
+    font-weight: bolder;
     padding: 5px;
     margin-right: 20px;
-    color: var(--second);
+    color: var(--main);
     font-size: 24px;
-    background-image: linear-gradient(280deg, var(--second) 0%, var(--second) 100%);
+    background-image: linear-gradient(280deg, var(--main) 0%, var(--main) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
@@ -68,7 +70,7 @@ nav a {
 
 nav a:hover {
     background-size: 100% 100%;
-    color: var(--first);
+    color: var(--light);
 }
 
 main {
@@ -109,11 +111,19 @@ li {
 }
 
 .hero h2 {
-    padding: 0px 2px 0px 2px;
+    padding: 0% 3% 0% 3%;
     margin: 10px 100px 25px 10px;
     font-size: 200%;
-    color: white;
-    background-color: var(--second);
+    color: var(--light);
+    background-color: var(--main);
+    border-radius: 25px;
+}
+
+.avatar-pic {
+    height: 320px;
+    width: 320px;
+    background-image: url(../images/me2.JPG);
+    border-radius: 150px;
 }
 
 .container {
@@ -247,10 +257,16 @@ li {
         padding: 0%;
     }
 
+    .hero {
+        justify-content: center;
+    }
+        
+
     .container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap; 
+        margin: 0px 20px;
     }
 
     .content-header {
