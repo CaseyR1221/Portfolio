@@ -156,31 +156,31 @@ li {
 .main-card {
     flex: 1 0 80%;
     height: 500px;
-    background-image: url(../images/surf-report.jpeg);
+    background-image: url(../images/Screen\ Shot\ 2021-08-11\ at\ 9.07.37\ AM.png);
     background-size: cover;
     background-position: center;
 }
 
 .one {
-    background-image: url(../images/led-wall.jpeg);
+    background-image: url(../images/TastyBytes-Logo.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .two {
-    background-image: url(../images/calculator.jpeg);
+    background-image: url(../images/team-profile.png);
     background-size: cover;
     background-position: center;
 }
 
 .three {
-    background-image: url(../images/pastel.png);
+    background-image: url(../images/tracking-employee.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .four {
-    background-image: url(../images/run-buddy.png);
+    background-image: url(../images/11-express-homework-demo-01.png);
     background-size: cover;
     background-position: center;
 }
